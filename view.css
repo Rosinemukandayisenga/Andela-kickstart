@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all{
+    display: block;
+}
+.container{
+    border: 1px solid pink;
+    display: flex;
+}
+.container > div{
+    flex: 1;
+}
+.onee{
+    background: rgb(58, 216, 58);
+}
+.twoo{
+    background:rgb(2, 54, 2) ;
+}
+.three{
+    background: rgb(58, 216, 58);
+}
+.three{
+    display: flex;
+    flex: 2;
+}
+.onee{
+    flex: 2;
+}
+.un{
+    background: yellow;
+    
+}
+.deux{
+    background: brown;
+    
+}
+.second{
+    display: flex;
+}
+.second div{
+    background: grey;
+    border: 2px black;
+    width: 100px;
+    height:150px;
+    flex: 1 1 auto;
+}
+.second .mbili{
+    flex-shrink: 0;
+}
